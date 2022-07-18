@@ -1,0 +1,7 @@
+{
+  "name": "course-panel",
+  "version": "1",
+  "main": "index.js",
+  "author": "Matheus <mt.schreiber01@gmail.com>",
+  "license": "MIT"
+}

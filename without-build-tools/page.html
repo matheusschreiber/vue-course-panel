@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UFES</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <div id="app">
+      <nav-bar @go-to="(n) => atual=n"></nav-bar>
+      
+      <div class="main-container">
+        <h1>{{title[atual]}}</h1>
+        <content-mainpage v-show="atual==0"></content-mainpage>
+        <content-courses v-show="atual==1" :list-item="'list-item'"></content-courses>
+      </div>
+
+
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./components/NavBar.js"></script>
+    <script src="./components/ContentMainPage.js"></script>
+    <script src="./components/ContentCoursePage.js"></script>
+    <script src="./components/ListItem.js"></script>
+    <script>app.mount('#app')</script>
+  </body>
+</html>
