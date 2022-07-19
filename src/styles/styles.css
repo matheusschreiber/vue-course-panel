@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #131215;
+    color: white;
+}
+
+.nav-container ul {
+    border-bottom: 2px solid tomato;
+    color:bisque;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 12pt;
+    margin: 1rem 5rem;
+    overflow: hidden;
+}
+
+.nav-container ul li {
+    cursor: pointer;
+    height:100%;
+    width: 100%;
+    padding: 1rem 5rem;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.nav-container ul li:hover {
+    transform: scale(1.2);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 10rem;
+    margin: 2rem auto;
+    
+    border-left: none;
+    border-right: none;
+}
+
+.main-container h1 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.upper-part {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.photo{
+    background-color:silver;
+    height: 20rem;
+    width: 30%;
+    margin-right: 3rem;
+    border-radius: 8px;
+}
+
+.text {
+    width: 70%;
+}
+
+p {
+    text-align: justify;
+    line-height: 18pt;
+}
+
+.list-container {
+    width: fit-content;
+}
+
+.list-item{
+    list-style: none;
+    padding: 0;
+}
+
+.student-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.student-list li{
+    width: 10rem;
+    text-align: center;
+}
+
+.list-item li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 20pt;
+    background-color: tomato;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.list-item li:hover {
+    opacity: .3;
+    cursor: pointer;
+    user-select: none;
+}
+
+.list-item li span{
+    font-size: 15pt;
+}
