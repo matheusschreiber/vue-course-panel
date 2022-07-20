@@ -66,7 +66,7 @@ body {
 }
 
 .photo{
-    background-color:silver;
+    background-color:tomato;
     height: 20rem;
     width: 30%;
     margin-right: 3rem;
@@ -125,4 +125,65 @@ p {
 
 .list-item li span{
     font-size: 15pt;
+}
+
+.edit-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+}
+
+.edit-item input[type="text"]{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid tomato;
+    font-size: 15pt;
+    color: white;
+}
+
+.edit-item p {
+    border: 5px solid tomato;
+    background-color: white;
+    margin: 0 1rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 20pt;
+}
+
+.edit-item button{
+    background-color: white;
+    border: none;
+    color: tomato;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: 100px;
+    
+    transition: .2s ease-in-out;
+}
+
+.edit-item button:hover{
+    opacity: .7;
+    transform: rotate(10deg) scale(1.2);
+}
+
+.emoji-picker {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    overflow: hidden;
+    height: 30rem;
+    bottom: 0px;
+    left: 0px;
+}
+
+.emoji-picker * {
+    transition: 1s;
 }

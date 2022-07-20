@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       atual: 0,
-      title: ['PÁGINA INICIAL', 'CURSOS DA GRADUAÇÃO', 'DOCENTES', 'DISCENTES'],
+      title: ['PÁGINA INICIAL', 'CURSOS DA GRADUAÇÃO', 'DOCENTES', 'DISCENTES'],     
     }
   },
   name: 'App',
@@ -32,7 +32,7 @@ export default {
     CoursesPage,
     TeachersPage,
     StudentsPage
-  }
+  },
 }
 </script>
 

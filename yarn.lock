@@ -2786,6 +2786,11 @@ electron-to-chromium@^1.4.188:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.193.tgz#8e760b9d9a7b92fe472664fd61811b307f3de39b"
   integrity sha512-tBqbgRv0yFIYBLBQKW6kHzI81rjvO1CRy+K8+XHTZtkVPkAZayI/CxTqBiy6Q1+tYAxby8bq/6yOiuNkTvfxmw==
 
+emoji-picker-element@^1.10.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/emoji-picker-element/-/emoji-picker-element-1.12.1.tgz#854a9bbae4d9a04fa2b5cd0763845921f4904c83"
+  integrity sha512-F9AY/re8uqZmBcCXLHLGvyy7fxuMQdZl9R8OToLRH8Vnns+WMX8RYUbI2nSJklzl5+82qzpYWeus1/puDepWcQ==
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
@@ -5761,6 +5766,11 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
+vue-demi@^0.12.4:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.5.tgz#8eeed566a7d86eb090209a11723f887d28aeb2d1"
+  integrity sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==
+
 vue-eslint-parser@^8.0.1:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz#5d31129a1b3dd89c0069ca0a1c88f970c360bd0d"
@@ -5811,6 +5821,14 @@ vue@^3.2.13:
     "@vue/runtime-dom" "3.2.37"
     "@vue/server-renderer" "3.2.37"
     "@vue/shared" "3.2.37"
+
+vuemoji-picker@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vuemoji-picker/-/vuemoji-picker-0.1.4.tgz#e8410e0f2e2cfadf21d79210b04149962913b334"
+  integrity sha512-gy+MkjcUn92mBENC4b/zqNMW0oz+F005KTf7mWhe1DVUuNhJVsEG2VPJQBIOa7yg+Owd68v7CBrF5TDf45jjzw==
+  dependencies:
+    emoji-picker-element "^1.10.1"
+    vue-demi "^0.12.4"
 
 watchpack@^2.3.1:
   version "2.4.0"
